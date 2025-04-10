@@ -27,6 +27,12 @@ The purpose of this lab is to simulate brute force attacks against common networ
 ## 🎯 Goal
 Identify valid usernames on the target VM.
 
+## 1.1 Nmap scan
+Performed an initial scan to discover open services.
+
+## 1.2 Enum4linux Enumeration
+Since SMB ports (139, 445) are open, used enum4linux to gather more usernames.
+
 ---
 
 ## 🛠️ Commands Used
@@ -47,7 +53,6 @@ enum4linux -a <target-ip>
 # 🔐 Task 2: Brute Force Attacks
 
 ## 2.1 FTP / TELNET / SSH
-
 Use Hydra to perform brute force attacks against the services FTP, TELNET, and SSH.
 
 ---
