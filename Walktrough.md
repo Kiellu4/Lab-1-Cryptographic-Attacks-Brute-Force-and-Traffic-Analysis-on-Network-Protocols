@@ -67,3 +67,10 @@ hydra -L /usr/share/wordlists/<file.txt> -P /usr/share/wordlists/<file.txt> ssh:
 ![image](https://github.com/user-attachments/assets/3f148cad-802e-4a38-aa50-b542a588f5bd)
 
 ---
+
+## 2.2 HTTP Login Page Attack (Burp Suite)
+Steps:
+-Captured login request in Burp Proxy.
+-Sent to Intruder.
+-Configured payload positions for username and password.
+-Loaded wordlists and launched attack.
