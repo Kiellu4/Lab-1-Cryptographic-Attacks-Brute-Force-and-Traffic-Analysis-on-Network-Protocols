@@ -32,5 +32,5 @@ Identify valid usernames on the target VM.
 ## 🛠️ Commands Used
 
 ```bash
-nmap -p 21,23,22,80 <target-ip> --script ftp-anon,telnet-encryption
+nmap -p 21,23,22,80 <target-ip> 
 ```
