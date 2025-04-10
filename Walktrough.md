@@ -41,8 +41,7 @@ Since ports (21,23,22,80) are open, used enum4linux to gather more usernames.
 enum4linux -a <target-ip> 
 ```
 ![image](https://github.com/user-attachments/assets/d3aa5613-9725-45dc-9d5c-d2f50fb3ad5e)
-![image](https://github.com/user-attachments/assets/5ea64485-1266-46e8-919a-ad1ee7f058b6)
-
+![image](https://github.com/user-attachments/assets/2fd2d4d5-60fe-412f-b145-e07f3199bfc9)
 
 ---
 
