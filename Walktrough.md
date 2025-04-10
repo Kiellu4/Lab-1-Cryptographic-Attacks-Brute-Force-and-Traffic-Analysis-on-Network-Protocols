@@ -1,21 +1,14 @@
-# 🧪 Network Protocol Vulnerability Lab - Walkthrough
+# 🛡️ Network Protocol Vulnerability Lab - Walkthrough
 
 ## 📌 Objective
 The purpose of this lab is to simulate brute force attacks against common network services (**FTP**, **TELNET**, **SSH**, and **HTTP**), analyze the security of these protocols, capture and inspect network traffic, and propose security mitigations.
 
 ---
 
-## 📂 Lab Environment Setup
+## 🖥️ Lab Environment Setup
 - **Attacker VM:** Kali Linux 2024.4
 - **Target VM:** Vulnerable Linux VM (Metasploitable2 / custom)
-
----
-
-## 🛠️ Tools Used
-- **Hydra**
-- **Burp Suite** (Community or Pro)
-- **Wireshark** / **tcpdump**
-- **Wordlists** (e.g., `rockyou.txt`, `userlist.txt`)
+- **Tools Used:** Hydra, Burp Suite, Wireshark,
 
 ---
 
@@ -47,7 +40,9 @@ Since ports (21,23,22,80) are open, used enum4linux to gather more usernames.
 ```bash
 enum4linux -a <target-ip> 
 ```
-![image](https://github.com/user-attachments/assets/3003bcc5-bfd0-4b8f-b4e4-77baba25b8c5)
+![image](https://github.com/user-attachments/assets/d3aa5613-9725-45dc-9d5c-d2f50fb3ad5e)
+![image](https://github.com/user-attachments/assets/5ea64485-1266-46e8-919a-ad1ee7f058b6)
+
 
 ---
 
