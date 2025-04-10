@@ -16,9 +16,21 @@ The purpose of this lab is to simulate brute force attacks against common networ
 ## 🛠️ Tools Used
 
 - **Hydra**
-- **Medusa**
-- **NetExec**
 - **Burp Suite** (Community or Pro)
 - **Wireshark** / **tcpdump**
 - **Wordlists** (e.g., `rockyou.txt`, `userlist.txt`)
 
+---
+
+# 🧾 Task 1: Enumerate the Target
+
+## 🎯 Goal
+Identify valid usernames on the target VM.
+
+---
+
+## 🛠️ Commands Used
+
+```bash
+nmap -p 21,23,22,80 <target-ip> --script ftp-anon,telnet-encryption
+```
