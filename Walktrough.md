@@ -56,13 +56,14 @@ Use Hydra to perform brute force attacks against the services FTP, TELNET, and S
 
 ```bash
 # Brute force FTP login
-hydra -L userlist.txt -P passlist.txt ftp://<target-ip>
+hydra -L /usr/share/wordlists/<file.txt> -P /usr/share/wordlists/<file.txt> ftp://<target-ip>
 
 # Brute force TELNET login
-hydra -L userlist.txt -P passlist.txt telnet://<target-ip>
+hydra -L /usr/share/wordlists/<file.txt> -P /usr/share/wordlists/<file.txt> telnet://<target-ip>
 
 # Brute force SSH login
-hydra -L userlist.txt -P passlist.txt ssh://<target-ip>
+hydra -L /usr/share/wordlists/<file.txt> -P /usr/share/wordlists/<file.txt> ssh://<target-ip>
 ```
+![image](https://github.com/user-attachments/assets/3f148cad-802e-4a38-aa50-b542a588f5bd)
 
 ---
