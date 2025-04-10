@@ -47,6 +47,25 @@ enum4linux -a <target-ip>
 
 # 🔐 Task 2: Brute Force Attacks
 
+## ✅ Preparation
+
+Before conducting brute-force attacks, prepare the following:
+
+- **Username list** (`userlist.txt`)
+- **Password list** (`passlist.txt`)
+
+You can either:
+
+- Use common lists available in Kali Linux, such as `/usr/share/wordlists/rockyou.txt`
+- Or manually create a small custom list for testing:
+
+```bash
+echo -e "admin\nmsfadmin\nanonymous\nuser\ntest" > userlist.txt
+echo -e "1234\nmsfadmin\nftp123\nadmin\npassword" > passlist.txt
+```
+
+---
+
 ## 2.1 FTP / TELNET / SSH
 Use Hydra to perform brute force attacks against the services FTP, TELNET, and SSH.
 
