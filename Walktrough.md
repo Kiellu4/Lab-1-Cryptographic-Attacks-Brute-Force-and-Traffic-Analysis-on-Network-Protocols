@@ -34,3 +34,5 @@ Identify valid usernames on the target VM.
 ```bash
 nmap -p 21,23,22,80 <target-ip> 
 ```
+![image](https://github.com/user-attachments/assets/01080065-ba49-40d4-9e90-c1ca80dd6306)
+
